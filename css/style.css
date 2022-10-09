@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.conteine{
+    display: flex;
+    width: 100%;
+    background-color: rgb(47, 255, 186);
+}
+
+i{
+    background-color: blue;
+
+    padding: 20px;
+}
+
+.conteine h1{
+    margin-left: 20px;
+}
+
+.conteine-compra{
+    float: right;
+}
