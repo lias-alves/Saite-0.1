@@ -3,23 +3,63 @@
     padding: 0;
 }
 
+a{
+    color: white;
+}
+
 .conteine{
+    background: red;
+    height: 250px;
+}
+
+.conteine-1{
     display: flex;
     width: 100%;
-    background-color: rgb(47, 255, 186);
+    color: white;
+    background-color: rgb(255, 5, 5);
 }
 
-i{
-    background-color: blue;
-
-    padding: 20px;
+.conteine-menu{
+   margin: 10px 10px;
 }
 
-.conteine h1{
+.conteine-nome{
+    width: 100%;
     margin-left: 20px;
 }
-
+.conteine i{
+    font-size: 25px;
+}
 .conteine-compra{
-    float: right;
-    background: rebeccapurple;
+    width: 20%;
+    margin: 10px 10px;
+    background: rgb(255, 0, 0);
+    text-align: right;
+}
+
+.conteiner-pesquisa{
+    background-color: rgb(255, 0, 0);
+
+    width: 100%;
+    text-align: center;
+}
+
+.conteiner-pesquisa input{
+    border: solid 1px red;
+    border-radius: 15px;
+    padding: 8px;
+    margin: 10px;
+    width: 80%;
+}
+
+.conteine-local{
+    background: red;
+    color: rgb(255, 255, 255);
+    font-size: 11px;
+    font-weight: lighter;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.conteine-local p{
+    padding: 10px;
 }
