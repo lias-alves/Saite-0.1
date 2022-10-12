@@ -7,16 +7,15 @@ a{
     color: white;
 }
 
-.conteine{
+.conteiner{
+    display: flex;
     background: red;
+    height: 20px;
     height: 250px;
 }
 
 .conteine-1{
     display: flex;
-    width: 100%;
-    color: white;
-    background-color: rgb(255, 5, 5);
 }
 
 .conteine-menu{
@@ -38,14 +37,14 @@ a{
 }
 
 .conteiner-pesquisa{
-    background-color: rgb(255, 0, 0);
+    background-color: rgb(105, 75, 75);
 
     width: 100%;
     text-align: center;
 }
 
 .conteiner-pesquisa input{
-    border: solid 1px red;
+    border: solid 1px rgb(232, 187, 187);
     border-radius: 15px;
     padding: 8px;
     margin: 10px;
@@ -53,7 +52,7 @@ a{
 }
 
 .conteine-local{
-    background: red;
+    background: rgb(192, 98, 98);
     color: rgb(255, 255, 255);
     font-size: 11px;
     font-weight: lighter;
@@ -62,4 +61,17 @@ a{
 
 .conteine-local p{
     padding: 10px;
+}
+
+
+@media screen and (max-width: 500px){
+    .conteiner{
+        display: inline;
+    }
+    .conteine-1{
+        display: flex;
+        width: 100%;
+        color: white;
+        background-color: rgb(223, 186, 186);
+    }
 }
