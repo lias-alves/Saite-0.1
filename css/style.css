@@ -10,8 +10,6 @@ a{
 .conteiner{
     display: flex;
     background: red;
-    height: 20px;
-    height: 250px;
 }
 
 .conteine-1{
@@ -19,26 +17,24 @@ a{
 }
 
 .conteine-menu{
-   margin: 10px 10px;
+   margin: 12px 10px;
+   color: white;
 }
 
 .conteine-nome{
     width: 100%;
     margin-left: 20px;
+    color: rgb(255, 255, 255);
 }
 .conteine i{
     font-size: 25px;
 }
-.conteine-compra{
-    width: 20%;
-    margin: 10px 10px;
-    background: rgb(255, 0, 0);
-    text-align: right;
+.conteine-compra-1{
+    padding: 12px 0 0 0;
 }
 
 .conteiner-pesquisa{
-    background-color: rgb(105, 75, 75);
-
+    background-color: rgb(255, 0, 0);
     width: 100%;
     text-align: center;
 }
@@ -52,19 +48,23 @@ a{
 }
 
 .conteine-local{
-    background: rgb(192, 98, 98);
+    padding: 6px;
+    background: rgb(255, 0, 0);
     color: rgb(255, 255, 255);
     font-size: 11px;
     font-weight: lighter;
     font-family: Arial, Helvetica, sans-serif;
 }
 
+.conteine-compra{
+    display: none;
+}
+
 .conteine-local p{
     padding: 10px;
 }
 
-
-@media screen and (max-width: 500px){
+@media screen and (max-width: 800px){
     .conteiner{
         display: inline;
     }
@@ -72,6 +72,19 @@ a{
         display: flex;
         width: 100%;
         color: white;
-        background-color: rgb(223, 186, 186);
+        background-color: rgb(255, 0, 0);
     }
+
+    .conteine-compra{
+        display: block;
+        width: 20%;
+        margin: 9px 8px;
+        background: rgb(255, 0, 0);
+        text-align: center;
+    }
+
+    .conteine-compra-1{
+        display: none;
+    }
+
 }
